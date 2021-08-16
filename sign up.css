@@ -1,0 +1,166 @@
+.inputs {
+    background-color: #B3D1FF;
+    border: 0px;
+    height:30px;
+    width: 295px;
+    display: block; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.inputs:hover {
+    background-color: #e6f0ff;
+}
+
+.link{
+    text-decoration: none;
+    color: #0066FF;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+#signup {
+    background-color: #0066FF;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 25px;
+    border: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    transition: :all 15ms ease-in-out;
+}
+#signup:hover, #signup:focus {
+    background-color:  #0047b3;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#show{
+    background-color: white;
+    color: #FF1A1A;
+    border: none;
+    outline:none;
+    margin-bottom: 10px;
+}
+#show:hover{
+    border: none;
+    text-decoration: underline;
+    outline:none;
+    cursor: pointer;
+}
+.headings{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: 300;
+    line-height: 30px;
+    text-align: left;
+}
+input[type = "checkbox"]{
+    background-color: #e6f0ff;
+    cursor: pointer;
+    
+}
+.tnc{
+    font-size: 14px;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 35px;
+    color: #0066FF;
+}
+.logo{
+    height: 50px;
+    display: flex;  
+}
+.account{
+    text-align: center;
+    font-family: sans-serif;
+}
+legend{
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-color: #0066FF;
+    height:55px;
+    font-size: 27px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+.form{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 70px;
+    background-image: url(bg4.png);
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+fieldset{
+    padding-top: 25px;
+    display: block;
+    border: 55px solid #0066FF;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 50px;
+}
+nav{
+    height: 50px;
+    display:flex;
+    background-color: #0066FF;
+    flex-direction: row;
+    align-items: center;
+    margin:0;
+    padding: 10px;;
+}
+body{
+    margin: 0;
+}
+.nav_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+}
+
+.nav_head{
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 110px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    transition: border-bottom 30ms ease-in;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.nav_head:hover, .nav_head:focus{
+    border-bottom: 1px solid white;
+}
+.nav_head:last-child{
+    background-color: whitesmoke;
+    color: #0066FF;
+    border-radius: 5px;
+    padding: 7px 0;
+    transition: all 30ms ease-in-out;
+}
+.nav_head:last-child:hover, .nav_head:last-child:focus{
+    transform: scale(1.02);
+    cursor: pointer;   
+}
